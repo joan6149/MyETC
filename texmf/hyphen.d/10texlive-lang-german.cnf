@@ -1,0 +1,12 @@
+% 10texlive-lang-german.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=ngerman file=loadhyph-de-1996.tex patterns=hyph-de-1996.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=ngerman-x-2013-05-26 file=dehyphn-x-2013-05-26.tex patterns=hyph-de-1996.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-de-1996.hyp.txt synonyms=ngerman-x-latest
+name=german file=loadhyph-de-1901.tex patterns=hyph-de-1901.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=swissgerman file=loadhyph-de-ch-1901.tex patterns=hyph-de-ch-1901.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=german-x-2013-05-26 file=dehypht-x-2013-05-26.tex patterns=hyph-de-1901.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-de-1901.hyp.txt synonyms=german-x-latest

@@ -1,0 +1,19 @@
+[connection]
+id=salvi 1
+uuid=ec7124b9-fe7e-43af-8fb8-446a59fe3ada
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=salvi
+mac-address=00:C0:CA:59:63:58
+security=802-11-wireless-security
+
+[802-11-wireless-security]
+key-mgmt=wpa-psk
+psk=CRISTINA25
+
+[ipv4]
+method=auto
+
+[ipv6]
+method=auto

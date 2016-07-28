@@ -1,0 +1,13 @@
+This automatically generated configuration consists of the following files:
+- /etc/kde4/kdm/kdmrc
+- /etc/kde4/kdm/Xaccess
+- /etc/kde4/kdm/Xwilling
+- /etc/kde4/kdm/Xsetup
+- /etc/kde4/kdm/Xstartup
+- /etc/kde4/kdm/Xreset
+- /etc/kde4/kdm/Xsession
+- /etc/kde4/kdm/backgroundrc
+
+Try 'genkdmconf --help' if you want to generate another configuration.
+
+You may delete this README.

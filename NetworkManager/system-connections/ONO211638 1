@@ -1,0 +1,22 @@
+
+[connection]
+id=ONO211638 1
+uuid=294fcfa0-9a3c-4540-bb30-b64fc555180a
+type=802-11-wireless
+
+[802-11-wireless]
+ssid=ONO211638
+mode=infrastructure
+mac-address=00:C0:CA:59:63:58
+security=802-11-wireless-security
+
+[802-11-wireless-security]
+key-mgmt=wpa-psk
+auth-alg=open
+psk=cristina25
+
+[ipv4]
+method=auto
+
+[ipv6]
+method=auto

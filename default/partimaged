@@ -1,0 +1,7 @@
+# /etc/default/partimaged
+
+# Location where the image files created by partimaged are stored.
+# If you run partimaged as user "partimag" und you change this directory
+# you have to give the user "partimag" write access for this directory. 
+# Otherwise partimaged will fail.
+TARGET=/var/lib/partimaged/

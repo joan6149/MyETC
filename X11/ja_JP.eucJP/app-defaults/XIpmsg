@@ -1,0 +1,121 @@
+! $Id: XIpmsg_jp.ad.in,v 3.8 1997/04/08 06:00:25 candy Exp candy $
+!
+! xipmsg.c - IP Messenger 1.20 for X11
+! Copyright (C) 1995, 1996 by candy
+! 
+! XIpmsg.ad - app-default file for IP Messenger
+! Copyright (C) 1996 by M.Suizu <issuizu@tokuyama.ac.jp>
+!
+*international: True
+*inputMethod: kinput2
+*Label.borderWidth: 0
+*background: PeachPuff
+*showGrip: False
+*icon_label.bitmap: /usr/share/xipmsg/xbro00.xbm
+*icon_label2.bitmap: /usr/share/xipmsg/xbro08.xbm
+*icon_label2.mappedWhenManaged: False
+!
+! きかないなあ??
+! *Dialog.*.scrollVertical: always
+!
+*commands.orientation: Horizontal
+*icon_label.fromHoriz: commands
+*quit.label: 終了
+*get_zone.label: 更新
+*compose.label: 送信
+*disable.label: 留守
+*disable.skipAdjust: True
+*name_view.allowVert: True
+!*name_view.allowHoriz: True
+*name_list.defaultColumns: 1
+*name_list.forceColumns: True
+!
+! (list.font.height + 2) * N + 4 
+*name_list.height: 109
+!
+! list.font.width * N + 10
+*name_list.width: 118
+*send_to.value.height: 50
+*send_to.value.width: 406
+*clear.label: 消去
+*cancel.label: 中止
+*send.label: 送信
+*answer.label: 返信
+*done.label: 閉じる
+*select.label: セレクト
+*open.label: 開封
+!
+! これもだめだなあ
+! *send_to.value.scrollHorizontal: WhenNeeded
+!
+*icon_button.bitmap: /usr/share/xipmsg/xbro00.xbm
+*icon_button.label: \000
+*icon_button.menuName: icon_menu
+!*icon_menu*SmeBSB.fontSet: -*-fixed-bold-*-*-*-16-*-*-*-*-*-*-*
+*icon_menu*SmeBSB.vertSpace: 100
+*icon_menu*SmeBSB.leftMargin: 40
+*icon_menu*SmeBSB.label: \000
+*icon_menu*icon00.leftBitmap: /usr/share/xipmsg/xbro00.xbm
+*icon_menu*icon01.leftBitmap: /usr/share/xipmsg/xbro01.xbm
+*icon_menu*icon02.leftBitmap: /usr/share/xipmsg/xbro02.xbm
+*icon_menu*icon03.leftBitmap: /usr/share/xipmsg/xbro03.xbm
+*icon_menu*icon04.leftBitmap: /usr/share/xipmsg/xbro04.xbm
+*icon_menu*icon05.leftBitmap: /usr/share/xipmsg/xbro05.xbm
+*icon_menu*icon06.leftBitmap: /usr/share/xipmsg/xbro06.xbm
+*icon_menu*icon07.leftBitmap: /usr/share/xipmsg/xbro07.xbm
+*icon_menu*icon08.leftBitmap: /usr/share/xipmsg/xbro08.xbm
+*icon_menu*icon09.leftBitmap: /usr/share/xipmsg/xbro09.xbm
+*icon_menu*icon10.leftBitmap: /usr/share/xipmsg/xbro10.xbm
+*icon_menu*icon11.leftBitmap: /usr/share/xipmsg/xbro11.xbm
+*icon_menu*icon12.leftBitmap: /usr/share/xipmsg/xbro12.xbm
+*icon_menu*icon13.leftBitmap: /usr/share/xipmsg/xbro13.xbm
+*icon_menu*icon14.leftBitmap: /usr/share/xipmsg/xbro14.xbm
+*icon_menu*icon15.leftBitmap: /usr/share/xipmsg/xbro15.xbm
+
+*err_popup*not_sent.label: メッセージは送信できませんでした。
+*err_popup*too_long.label: メッセージが長過ぎです。\n\
+ (メッセージ + 名前 + ゾーン) の合計を 256 バイト以内にしてください。
+*ok.label: あっそ
+
+*fontSet:\
+	-misc-fixed-medium-r-normal--14-*-*-*-*--iso8859-1,\
+	-misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0201.1976-*,\
+	-misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0208.1983-*,\
+	-misc-fixed-medium-r-normal--14-*-*-*-*-*-jisx0213.2000-*
+
+
+!*Command.fontSet: -*-fixed-bold-*-*-*-13-*-*-*-*-*-*-*
+!*Toggle.fontSet: -*-fixed-bold-*-*-*-13-*-*-*-*-*-*-*
+
+*translations: #override\n Ctrl<Key>z: iconify_action()
+*level0*translations: #override\n\
+ Ctrl<Key>z: iconify_action() \n\
+ Meta<Key>q: direct_call_action(*quit) \n\
+ Meta<Key>r: direct_call_action(*get_zone) \n\
+ Meta<Key>p: direct_call_action(*plus) \n\
+ Meta<Key>m: direct_call_action(*minus) \n\
+ Meta<Key>d: disable_action() \n\
+ Ctrl<Key>p: list_key_named_action(Up) \n\
+ Ctrl<Key>n: list_key_named_action(Down) \n\
+ Meta<Key>v: list_key_named_action(Page_Up) \n\
+ Ctrl<Key>v: list_key_named_action(Page_Down) \n\
+ <Key>Return: direct_call_action(*compose) \n\
+ <Key>KP_Enter: direct_call_action(*compose) \n\
+ <Key>: call_name_list_action()
+*send_to*translations: #override\n\
+ Ctrl<Key>z: iconify_action() \n\
+ <Key>KP_Enter: direct_call_action(send) \n\
+ Meta<Key>Return: direct_call_action(send) \n\
+ Meta<Key>w: direct_call_action(cancel) \n\
+ Meta<Key>x: direct_call_action(clear)
+*recv_from*translations: #override\n\
+ Ctrl<Key>z: iconify_action() \n\
+ <Key>KP_Enter: direct_call_action(answer) \n\
+ <Key>Return: direct_call_action(answer) \n\
+ Meta<Key>w: direct_call_action(done) \n\
+ Meta<Key>c: direct_call_action(select)
+*err_popup*translations: #override\n\
+ Ctrl<Key>z: iconify_action() \n\
+ Meta<Key>w: direct_call_action(ok) \n\
+ <Key>Return: direct_call_action(ok) \n\
+ <Key>Escape: direct_call_action(ok)

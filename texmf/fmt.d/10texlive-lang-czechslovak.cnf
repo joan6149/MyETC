@@ -1,0 +1,13 @@
+# 10texlive-lang-czechslovak.cnf
+# You can change/add entries to this file and changes will be preserved
+# over upgrades, even if you have removed the main package prior
+# (not if you purged it). You should leave the following pseudo comment
+# present in the file!
+# -_- DebPkgProvidedMaps -_-
+# 
+pdfcsplain luatex - -etex csplain.ini
+cslatex pdftex - -etex cslatex.ini
+pdfcsplain xetex - -etex csplain.ini
+pdfcsplain pdftex - -etex -enc csplain-utf8.ini
+csplain pdftex - -etex -enc csplain-utf8.ini
+pdfcslatex pdftex - -etex cslatex.ini

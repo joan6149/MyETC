@@ -1,0 +1,8 @@
+# Secrets for authentication using CHAP
+# client	server	secret			IP addresses
+
+
+
+# added by pptpsetup for MYVPN
+joan MYVPN "raski6149" *
+

@@ -1,0 +1,19 @@
+
+[802-3-ethernet]
+duplex=full
+mac-address=54:42:49:EF:B4:B5
+
+[connection]
+id=Conexión cableada 1
+uuid=53aed74d-c314-4dce-8574-454bbdcd9487
+type=802-3-ethernet
+timestamp=1377096368
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=manual
+dns=192.168.1.1;
+addresses1=192.168.1.5;24;192.168.1.1;
+may-fail=false

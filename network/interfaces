@@ -1,0 +1,16 @@
+auto lo
+iface lo inet loopback
+
+auto wlan0
+
+auto eth0
+
+
+
+
+
+
+
+
+
+

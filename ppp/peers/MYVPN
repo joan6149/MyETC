@@ -1,0 +1,10 @@
+# written by pptpsetup
+pty "pptp casa6149.mine.nu --nolaunchpppd"
+lock
+noauth
+nobsdcomp
+nodeflate
+name joan
+remotename MYVPN
+ipparam MYVPN
+require-mppe-128

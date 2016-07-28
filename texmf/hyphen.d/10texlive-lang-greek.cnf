@@ -1,0 +1,11 @@
+% 10texlive-lang-greek.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=ibycus file=ibyhyph.tex patterns= lefthyphenmin=2 righthyphenmin=2
+name=ancientgreek file=loadhyph-grc.tex patterns=hyph-grc.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=monogreek file=loadhyph-el-monoton.tex patterns=hyph-el-monoton.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=greek file=loadhyph-el-polyton.tex patterns=hyph-el-polyton.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions= synonyms=polygreek

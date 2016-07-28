@@ -1,0 +1,16 @@
+[connection]
+id=Red GT-I9100
+uuid=910a4001-5a67-4024-80fa-f2385bd25057
+type=bluetooth
+autoconnect=false
+
+[bluetooth]
+bdaddr=54:9B:12:98:BA:47
+type=panu
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
+may-fail=false

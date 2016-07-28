@@ -1,0 +1,10 @@
+% 10texlive-lang-spanish.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=catalan file=loadhyph-ca.tex patterns=hyph-ca.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-ca.hyp.txt
+name=galician file=loadhyph-gl.tex patterns=hyph-gl.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=spanish file=loadhyph-es.tex patterns=hyph-es.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions= synonyms=espanol

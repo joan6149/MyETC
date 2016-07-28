@@ -1,0 +1,31 @@
+% 10texlive-lang-european.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=armenian file=loadhyph-hy.tex patterns=hyph-hy.pat.txt lefthyphenmin=1 righthyphenmin=2 exceptions=
+name=friulan file=loadhyph-fur.tex patterns=hyph-fur.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=irish file=loadhyph-ga.tex patterns=hyph-ga.pat.txt lefthyphenmin=2 righthyphenmin=3 exceptions=hyph-ga.hyp.txt
+name=danish file=loadhyph-da.tex patterns=hyph-da.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=turkish file=loadhyph-tr.tex patterns=hyph-tr.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=romanian file=loadhyph-ro.tex patterns=hyph-ro.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=bokmal file=loadhyph-nb.tex patterns=hyph-nb.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-nb.hyp.txt synonyms=norwegian,norsk
+name=nynorsk file=loadhyph-nn.tex patterns=hyph-nn.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-nn.hyp.txt
+name=latvian file=loadhyph-lv.tex patterns=hyph-lv.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=slovenian file=loadhyph-sl.tex patterns=hyph-sl.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions= synonyms=slovene
+name=hungarian file=loadhyph-hu.tex patterns=hyph-hu.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=kurmanji file=loadhyph-kmr.tex patterns=hyph-kmr.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=romansh file=loadhyph-rm.tex patterns=hyph-rm.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=icelandic file=loadhyph-is.tex patterns=hyph-is.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=dutch file=loadhyph-nl.tex patterns=hyph-nl.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-nl.hyp.txt
+name=latin file=loadhyph-la.tex patterns=hyph-la.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=welsh file=loadhyph-cy.tex patterns=hyph-cy.pat.txt lefthyphenmin=2 righthyphenmin=3 exceptions=
+name=piedmontese file=loadhyph-pms.tex patterns=hyph-pms.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=croatian file=loadhyph-hr.tex patterns=hyph-hr.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=finnish file=loadhyph-fi.tex patterns=hyph-fi.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=swedish file=loadhyph-sv.tex patterns=hyph-sv.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=estonian file=loadhyph-et.tex patterns=hyph-et.pat.txt lefthyphenmin=2 righthyphenmin=3 exceptions=
+name=lithuanian file=loadhyph-lt.tex patterns=hyph-lt.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=uppersorbian file=loadhyph-hsb.tex patterns=hyph-hsb.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-hsb.hyp.txt

@@ -1,0 +1,13 @@
+
+[connection]
+id=Red GT-I9300
+uuid=bd2afcd1-4461-4401-b2a5-981b2da64a98
+type=bluetooth
+autoconnect=false
+
+[bluetooth]
+bdaddr=D8:57:EF:01:01:7C
+type=panu
+
+[ipv4]
+method=auto

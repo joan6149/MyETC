@@ -1,0 +1,14 @@
+% 10texlive-lang-cyrillic.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=mongolian file=loadhyph-mn-cyrl.tex patterns=hyph-mn-cyrl.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=bulgarian file=loadhyph-bg.tex patterns=hyph-bg.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=serbianc file=loadhyph-sr-cyrl.tex patterns=hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt
+name=serbian file=loadhyph-sr-latn.tex patterns=hyph-sh-latn.pat.txt,hyph-sh-cyrl.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-sh-latn.hyp.txt,hyph-sh-cyrl.hyp.txt
+name=mongolianlmc file=loadhyph-mn-cyrl-x-lmc.tex patterns= lefthyphenmin=2 righthyphenmin=2
+name=russian file=loadhyph-ru.tex patterns=hyph-ru.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-ru.hyp.txt
+name=ukrainian file=loadhyph-uk.tex patterns=hyph-uk.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=

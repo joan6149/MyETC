@@ -1,0 +1,5 @@
+#!/bin/bash
+NET="192.168.1.0/24" # set me
+IFACE="ppp0" # set me
+#IFACE=$1
+route add -net ${NET} dev ${IFACE}

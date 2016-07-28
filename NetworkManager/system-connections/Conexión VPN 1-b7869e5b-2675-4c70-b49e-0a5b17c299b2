@@ -1,0 +1,16 @@
+[connection]
+id=Conexión VPN 1
+uuid=b7869e5b-2675-4c70-b49e-0a5b17c299b2
+type=vpn
+permissions=user:joan:;
+autoconnect=false
+
+[vpn]
+service-type=org.freedesktop.NetworkManager.pptp
+gateway=192.168.1.132
+require-mppe=yes
+user=uservpn
+password-flags=1
+
+[ipv4]
+method=auto

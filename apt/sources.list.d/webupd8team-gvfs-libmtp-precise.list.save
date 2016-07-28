@@ -1,0 +1,2 @@
+# deb http://ppa.launchpad.net/webupd8team/gvfs-libmtp/ubuntu trusty main # (desactivado al actualizar a trusty)
+# deb-src http://ppa.launchpad.net/webupd8team/gvfs-libmtp/ubuntu trusty main # (desactivado al actualizar a trusty)

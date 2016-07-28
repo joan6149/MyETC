@@ -1,0 +1,16 @@
+[connection]
+id=Red joniS4
+uuid=ca0cba67-68e8-427c-8d67-8a0f3926e5ee
+type=bluetooth
+autoconnect=false
+
+[bluetooth]
+bdaddr=9C:3A:AF:FB:96:CB
+type=panu
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=auto
+may-fail=false

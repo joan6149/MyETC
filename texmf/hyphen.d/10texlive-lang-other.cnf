@@ -1,0 +1,15 @@
+% 10texlive-lang-other.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=georgian file=loadhyph-ka.tex patterns=hyph-ka.pat.txt lefthyphenmin=2 righthyphenmin=3 exceptions=
+name=thai file=loadhyph-th.tex patterns=hyph-th.pat.txt lefthyphenmin=2 righthyphenmin=3 exceptions=
+name=turkmen file=loadhyph-tk.tex patterns=hyph-tk.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=afrikaans file=loadhyph-af.tex patterns=hyph-af.pat.txt lefthyphenmin=1 righthyphenmin=2 exceptions=hyph-af.hyp.txt
+name=esperanto file=loadhyph-eo.tex patterns=hyph-eo.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=
+name=indonesian file=loadhyph-id.tex patterns=hyph-id.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-id.hyp.txt
+name=interlingua file=loadhyph-ia.tex patterns=hyph-ia.pat.txt lefthyphenmin=2 righthyphenmin=2 exceptions=hyph-ia.hyp.txt
+name=coptic file=loadhyph-cop.tex patterns=hyph-cop.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=

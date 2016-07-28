@@ -1,0 +1,19 @@
+% 10texlive-lang-indic.cnf
+% You can change/add entries to this file and changes will be preserved
+% over upgrades, even if you have removed the main package prior
+% (not if you purged it). You should leave the following pseudo comment
+% present in the file!
+% -_- DebPkgProvidedMaps -_-
+% 
+name=tamil file=loadhyph-ta.tex patterns=hyph-ta.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=bengali file=loadhyph-bn.tex patterns=hyph-bn.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=telugu file=loadhyph-te.tex patterns=hyph-te.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=oriya file=loadhyph-or.tex patterns=hyph-or.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=malayalam file=loadhyph-ml.tex patterns=hyph-ml.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=gujarati file=loadhyph-gu.tex patterns=hyph-gu.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=hindi file=loadhyph-hi.tex patterns=hyph-hi.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=kannada file=loadhyph-kn.tex patterns=hyph-kn.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=marathi file=loadhyph-mr.tex patterns=hyph-mr.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=sanskrit file=loadhyph-sa.tex patterns=hyph-sa.pat.txt lefthyphenmin=1 righthyphenmin=3 exceptions=
+name=panjabi file=loadhyph-pa.tex patterns=hyph-pa.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=
+name=assamese file=loadhyph-as.tex patterns=hyph-as.pat.txt lefthyphenmin=1 righthyphenmin=1 exceptions=

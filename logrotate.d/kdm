@@ -1,0 +1,9 @@
+/var/log/kdm.log {
+	rotate 2
+	daily
+	compress
+	delaycompress
+	copytruncate
+	missingok
+	notifempty
+}

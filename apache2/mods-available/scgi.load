@@ -1,0 +1,1 @@
+LoadModule scgi_module /usr/lib/apache2/modules/mod_scgi.so

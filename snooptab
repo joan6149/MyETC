@@ -1,0 +1,29 @@
+# /etc/snooptab
+#
+# these display directly on the specified tty.. no client necessary
+#
+# tty		snoopdev	type	execpgm
+#
+#ttyS1		/dev/tty7	login	/bin/login
+#ttyS2		/dev/tty8	login	/bin/login
+#
+#
+# the 'socket' snoop-device is for use with the ttysnoop client (any tty not
+# listed above will match the wildcard)
+#
+*		socket		login	/bin/login
+#
+# remember to inform your incoming daemons that /usr/sbin/ttysnoops is 
+# the login program
+#
+# example:  (for /etc/inetd.conf)
+# telnet stream tcp nowait root /usr/sbin/tcpd /usr/sbin/in.telnetd -L /usr/sbin/ttysnoops
+#
+# example /etc/inittab (using agetty):
+# s2:23:respawn:/sbin/getty 38400 ttyS2 vt100 -l /usr/sbin/ttysnoops
+#
+# or, if you're using mgetty:   (/etc/mgetty/login.config) replace:
+# *	  -       -       /bin/login	@
+# with:
+# *       -       -       /usr/sbin/ttysnoops @
+

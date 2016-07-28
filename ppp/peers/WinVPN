@@ -1,0 +1,8 @@
+
+
+pty "pptp casa6149.mine.nu --nolaunchpppd"
+name joan
+remotename PPTP
+require-mppe-128
+file /etc/ppp/options.pptp
+ipparam WinVPN

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ "$IFACE" = "ppp0" ]; then
+ route add default gateway 192.168.1.1 dev wlan0
+fi
